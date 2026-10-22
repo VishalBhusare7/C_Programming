@@ -7,7 +7,7 @@
 //  Function Name: Display
 //  Description  : Accept number from user and print "Hello" if Number is less than 10 otherwise Print "Demo"
 //  Input        : Integer
-//  Output       : if Number is less than 10 then Print "Hello" otherwise Print "Demo"
+//  Output       : String
 //  Date         : 19/10/2026
 //  Author       : Vishal Shriram Bhusare
 //

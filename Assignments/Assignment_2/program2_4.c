@@ -7,7 +7,7 @@
 //  Function Name: Display
 //  Description  : Accept two Numbers from user and Print and Display first Number in second Number of times
 //  Input        : Integer , Integer
-//  Output       : Display first Number in second Number of times
+//  Output       : Integers
 //  Date         : 19/10/2026
 //  Author       : Vishal Shriram Bhusare
 //

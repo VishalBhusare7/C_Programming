@@ -7,7 +7,7 @@
 //  Function Name: ChkEven
 //  Description  : Accept Number from use and Check whether Number is Even or Odd
 //  Input        : Integer
-//  Output       : Number is Even or Odd
+//  Output       : String
 //  Date         : 19/10/2026
 //  Author       : Vishal Shriram Bhusare
 //
