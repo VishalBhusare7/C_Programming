@@ -31,14 +31,14 @@ int CountFour(int iNo)
 
 int main()
 {
-    int iValue = 0, bRet = 0;
+    int iValue = 0, iRet = 0;
 
     printf("Enter number : \n");
     scanf("%d",&iValue);
 
-    bRet = CountFour(iValue);
+    iRet = CountFour(iValue);
 
-    printf("%d\n",bRet);
+    printf("%d\n",iRet);
 
     return EXIT_SUCCESS;
 }
