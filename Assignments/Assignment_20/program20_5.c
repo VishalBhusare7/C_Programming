@@ -7,7 +7,7 @@
 //  Function Name: Pattern
 //  Description  : Accept number of rows and number of columns from user and display below patter
 //  Input        : Integer , Integer
-//  Output       : Special Symbol 
+//  Output       : Integer
 //  Date         : 06/11/2026
 //  Author       : Vishal Shriram Bhusare
 //
