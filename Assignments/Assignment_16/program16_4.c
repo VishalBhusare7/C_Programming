@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////////
 //
 //  Function Name: Pattern
-//  Description  : Accept number of rows and number of columns from user and display bellow patter
+//  Description  : Accept number of rows and number of columns from user and display below patter
 //  Input        : Integer , Integer
 //  Output       : Integer
 //  Date         : 05/11/2026
