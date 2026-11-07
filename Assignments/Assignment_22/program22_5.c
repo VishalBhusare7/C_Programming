@@ -17,9 +17,9 @@ void Pattern(int iNo)
 {
     int iCnt = 0;
 
-    for(iCnt = 2; iCnt <= iNo*2; iCnt+=2)
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
     {
-        printf("%d\t",iCnt);
+        printf("%d\t",iCnt*2);
     } 
 }
 
