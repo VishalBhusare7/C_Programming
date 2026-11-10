@@ -20,16 +20,13 @@ void struprx(char *str)
         if(*str > 96 && *str < 123)
         {
             *str = *str - 32;
-            printf("%c",*str);
-            *str++;
+            str++;
         }
         else
         {
-            printf("%c",*str);
-            *str++;
+            str++;
         }
-    }
-    
+    } 
 }
 
 int main()
@@ -40,6 +37,8 @@ int main()
     scanf("%[^'\n']s",&Arr);
 
     struprx(Arr);
+
+    printf("Modified String is : %s",Arr);
 
     return EXIT_SUCCESS;
 }

@@ -20,13 +20,11 @@ void strlwrx(char *str)
         if(*str > 64 && *str < 91)
         {
             *str = *str + 32;
-            printf("%c",*str);
-            *str++;
+            str++;
         }
         else
         {
-            printf("%c",*str);
-            *str++;
+            str++;
         }
     }
 }
@@ -39,6 +37,8 @@ int main()
     scanf("%[^'\n']s",&Arr);
 
     strlwrx(Arr);
+
+    printf("Modifield String is : %s",Arr);
 
     return EXIT_SUCCESS;
 }
