@@ -47,4 +47,6 @@ int main()
     {
         printf("It Is Not a Charecter");
     }
+
+    return EXIT_SUCCESS;
 }
