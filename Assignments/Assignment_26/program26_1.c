@@ -18,11 +18,18 @@ void DisplayASCII()
 {
     int iCnt = 0;
 
-    printf("dec\thex\toct\tchar\n");
+    printf("Decimal\t\tHexadecimal\tOctal\t\tCharecter\n");
 
     for (iCnt = 0; iCnt <= 255; iCnt++)
     {
-        printf("%d\t%x\t%o\t%c\n", iCnt, iCnt, iCnt, iCnt);   
+        if(iCnt >= 33 && iCnt <= 126)
+        {
+            printf("%d\t\t%x\t\t%o\t\t%c\n", iCnt, iCnt, iCnt, iCnt);  
+        }
+        else
+        {
+            printf("%d\t\t%x\t\t%o\t\tN/A\n", iCnt, iCnt, iCnt);
+        }
     }   
 }
 
